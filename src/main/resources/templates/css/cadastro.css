@@ -1,0 +1,135 @@
+
+  *{
+    margin: 0px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+   
+     
+   
+  .titulo{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 490;
+    text-align: center;
+  }
+   .container-form{
+      width: 100vw;
+      height: 120vh;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    
+      text-size-adjust: 15px;
+     
+      
+    }
+    .form{
+        width: 700px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration-style: dotted;
+        text-align: center;
+       
+       
+    }
+    .container-input{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       gap: 5px;
+  
+  
+    }
+  
+    .container-input input{
+        margin-top: 20px;
+        height: 28px;
+        width: 250px;
+        background-color: #7FB239;
+       
+        border: 0px solid black;
+        border-radius: 10px;
+        -webkit-text-fill-color: #fff;
+    }
+    .ch{
+      display: flex;
+      width: 600px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .check{
+      width: 20px;
+      height: 20px;
+    }
+    .container-btn{
+      display: flex;
+      margin-top: 30px;
+      width: 90vw;
+      margin-left: 40px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      position: absolute;
+      left: 0px;
+      bottom: -100px;
+   
+    }
+  
+    .container-btn .botao{
+      width: 150px;
+      padding: 0px;
+      height: 30px;
+      text-decoration: none;
+      background-color: #7FB239;
+      border: 0px solid black;
+      border-radius: 10px;
+     color: #fff;
+     cursor: pointer;
+     transition: 0.3s;
+   
+    }
+    .container-btn .botao:hover{
+      border: 1.5px solid #4d6d1f;
+      color: #4d6d1f;
+      background-color: #d1e8b200;
+    }
+    
+    .opcao{
+      display: flex;
+      text-align: center;
+      position: relative;
+      flex-direction: column;
+      font-weight: 600;
+    }
+    
+    
+      .container-termo a {
+        text-decoration: none;
+        color: black;
+      }
+      .container-termo a:hover {
+        color: var;
+      }
+      
+      .form .termo {
+        display: none;
+      }
+     
+      
+      .form .termo:checked + label:before {
+      
+        background-color: var(--cor-padrao);
+        background-position: center;
+        border: none;
+        padding: 1px;
+      }
+     .logo{
+      height: 150px;
+      width: 150px;
+     }
+      
